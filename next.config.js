@@ -4,6 +4,9 @@ const nextConfig = {
   env: {
     BASE_API: process.env.BASE_API,
     PAYPAL_CLIENT_ID: process.env.PAYPAL_CLIENT_ID
+  },
+  images: {
+    domains: ["res.cloudinary.com"]
   }
 }
 
